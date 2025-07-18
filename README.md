@@ -13,7 +13,6 @@ Frontend: HTML & CSS.
 
 Backend: Flask application for handling user input and predictions.
 
-Prediction: Users enter a message, click "Predict", and get an instant result: Spam or Not Spam.
 
 📂 Tech Stack:
 Python, NLTK, Scikit-learn, Flask
