@@ -1,25 +1,31 @@
-This project is a machine learning-based web application that classifies  SMS as Spam or Not Spam.
+# 📩 SMS Spam Classifier Web App
 
-✅ Key Features:
-Text Preprocessing: Lowercasing, punctuation removal, stopwords removal, and stemming using NLTK.
+This project is a **machine learning-based web application** that classifies **SMS messages as Spam or Not Spam**, helping users filter unwanted texts effectively.
 
-Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert text into numerical features.
+---
 
-Model: Trained a Naive Bayes model (MultinomialNB) for classification.
+## ✅ Key Features
 
-Web Interface:
+- 📝 **Text Preprocessing**  
+  - Lowercasing  
+  - Punctuation removal  
+  - Stopwords removal  
+  - Stemming using NLTK
 
-Frontend: HTML & CSS.
+- 🔢 **Vectorization**  
+  - **TF-IDF (Term Frequency-Inverse Document Frequency)** to convert text into numerical features
 
-Backend: Flask application for handling user input and predictions.
+- 🧠 **Model**  
+  - Trained **Naive Bayes classifier (MultinomialNB)** for accurate spam detection
 
+- 🌐 **Web Interface**  
+  - **Frontend**: HTML & CSS  
+  - **Backend**: Flask application to handle user input and display predictions
 
-📂 Tech Stack:
-Python, NLTK, Scikit-learn, Flask
+---
 
-HTML/CSS for the UI
+## 📂 Tech Stack
 
-Pickle for saving/loading the model and vectorizer
-
-
-
+- **Languages & Libraries**: Python, NLTK, Scikit-learn, Flask  
+- **Frontend**: HTML, CSS  
+- **Persistence**: Pickle for saving/loading the model and vectorizer
